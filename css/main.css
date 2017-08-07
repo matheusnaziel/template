@@ -1,0 +1,422 @@
+body {
+    height: 100vh;
+    background-image: url(../imagens/lago4k.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.main--content {
+    padding-top: 60px;
+}
+
+.content--menu {
+    display: flex;
+    justify-content: flex-start;
+    height: 200px;
+    align-items: baseline;
+}
+
+.text-bg {
+  background-color: #fafafa;
+  border-top: 5px solid #da222b;
+  height: 200px
+}
+
+.bolona {
+    width: 210px;
+    height: 210px;
+    border-radius: 100%;
+    border: 5px solid #09afad;
+    margin-right: 30px;
+    left: -15px;
+    margin-top: 18px;
+    margin-left: 48px;
+}
+
+.first-text {
+    font-size: 54px;
+    letter-spacing: -2pt;
+    color: #000;
+}
+
+.text-1 {
+    font-size: 20px;
+    color: #000;
+}
+
+strong {
+    color: #09afad;
+}
+
+.text-2 {
+    font-size: 14px !important;
+    text-align: left;
+    color: #000;
+}
+
+.second--section {
+    margin-top: 65px;
+    margin-left: 213px;
+}
+
+.profile {
+    color: #000523; 
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+
+.education {
+    color: #000523; 
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    padding-top: 50px;
+}
+
+.full--name {
+    color: #000523;         
+    font-weight: 600;
+    position: relative;
+}
+
+.full--name:after {
+    content: "";
+    border-bottom: 1px solid #ccc;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.bg--section--1 {
+    background: #fafafa;
+}
+
+.bg--section--1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.name {
+    font-size: 14px;
+    color: #333333;
+}
+
+.page--h3 {
+    color: #000523;         
+    font-weight: 600;   
+    margin-top: 20px;
+    position: relative;
+}
+
+.page--h3:after {
+    content: "";
+    border-bottom: 1px solid #ccc;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.email {
+    color: #000523;         
+    font-weight: 600;
+}
+
+.find-me-on {
+    color: #000523;         
+    font-weight: 600;
+}
+
+.pdd--section {
+    padding-top: 80px;
+}
+
+.mrgin-section {
+    margin-left: 80px;
+}
+
+.icon--twitter:before {
+    content: "\ea96";
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.icon--twitter {
+    position: relative;
+    display: inline-block;
+    z-index: 20;
+}
+
+.icon--twitter .tooltip-twitter{
+    visibility: hidden;
+    width: 120px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    margin-left: -80px;
+    margin-top: 6px;
+
+    /* MAKE FADE IN */
+
+    opacity: 0;
+    transition:opacity 1s;
+}
+
+.icon--twitter .tooltip-twitter::after {
+    content: "";
+    position: absolute;
+    top: 100%
+    left: 50%;
+    margin-left: -65px;
+    margin-top: -15px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #333 transparent;
+}
+
+.icon--twitter:hover .tooltip-twitter{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.icon--github:before {
+    content: "\eae7";
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.icon--github {
+    position: relative;
+    display: inline-block;
+    z-index: 20;
+}
+
+.icon--github .tooltip-github{
+    visibility: hidden;
+    width: 120px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    margin-left: -80px;
+    margin-top: 6px;
+
+    /* MAKE FADE IN */
+
+    opacity: 0;
+    transition:opacity 1s;
+}
+
+.icon--github .tooltip-github::after {
+    content: "";
+    position: absolute;
+    top: 100%
+    left: 50%;
+    margin-left: -65px;
+    margin-top: -15px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #333 transparent;
+}
+
+.icon--github:hover .tooltip-github{
+    visibility: visible;
+    opacity: 1;
+}
+
+.work--experience {
+    color: #000523; 
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    padding-top: 50px;
+}
+
+.icon--flag:before {
+    content: "\e9cc";
+    margin-right: 5px;
+}
+
+.icon--email:before {
+    content: "\e945";
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.icon--email {
+    position: relative;
+    display: inline-block;
+    z-index: 20;
+    border-style: none; 
+    list-style: none;
+}
+
+.icon--email .tooltip-email{
+    visibility: hidden;
+    width: 170px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    margin-left: -80px;
+    margin-top: 6px;
+
+    /* MAKE FADE IN */
+
+    opacity: 0;
+    transition:opacity 1s;
+}
+
+.icon--email .tooltip-email::after {
+    content: "";
+    position: absolute;
+    top: 100%
+    left: 50%;
+    margin-left: -108px;
+    margin-top: -15px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #333 transparent;
+}
+
+.icon--email:hover .tooltip-email{
+    visibility: visible;
+    opacity: 1;
+}
+
+.icon--tel:before {
+    content: "\e958";
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.icon--tel {
+    position: relative;
+    display: inline-block;
+    z-index: 20;
+}
+
+.icon--tel .tooltip-tel{
+    visibility: hidden;
+    width: 120px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    margin-left: -80px;
+    margin-top: 6px;
+
+    /* MAKE FADE IN */
+
+    opacity: 0;
+    transition:opacity 1s;
+}
+
+.icon--tel .tooltip-tel::after {
+    content: "";
+    position: absolute;
+    top: 100%
+    left: 50%;
+    margin-left: -51px;
+    margin-top: -15px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #333 transparent;
+}
+
+.icon--tel:hover .tooltip-tel{
+    visibility: visible;
+    opacity: 1;
+}
+
+.icon--skype:before{
+    content: "\eac5";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.icon--skype {
+    position: relative;
+    display: inline-block;
+    z-index: 20;
+}
+
+.icon--skype .tooltip-skype{
+    visibility: hidden;
+    width: 120px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    margin-left: -80px;
+    margin-top: 6px;
+
+    /* MAKE FADE IN */
+
+    opacity: 0;
+    transition:opacity 1s;
+}
+
+.icon--skype .tooltip-skype::after {
+    content: "";
+    position: absolute;
+    top: 100%
+    left: 50%;
+    margin-left: -36px;
+    margin-top: -29px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #333 transparent;
+}
+
+.icon--skype:hover .tooltip-skype{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.icon--library:before {
+    content: "\e921";
+    margin-right: 5px;
+}
+
+.education--text--1 {
+    font-size: 15px;
+}
+
+
+.icon--twitter:hover {
+    text-decoration: none;
+}
