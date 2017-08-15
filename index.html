@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 
-	<title>Desenvolvendo um Grid System responsivo com CSS</title>
+	<title>Matheus Naziel</title>
 
 	<!-- VENDORS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
@@ -18,15 +18,24 @@
 <body>
 
 	<div class="content">
+		<div class="nav--bar">	
+			<button class="menu-abrir hamburguer">&#9776; MENU</button>
+				<nav class="barra-nav">
+					<button class="menu-fechar cross">&#735;</button>
+				<ul class="menu-principal">
+					<li><a href="#" class="link--nav">PROFILE</a></li>
+					<li><a href="#" class="link--nav">EDUCATION</a></li>
+					<li><a href="#" class="link--nav">WORK EXPERIENCE</a></li>
+					<li><a href="#" class="link--nav">SKILLS</a></li>
+					<li><a href="#" class="link--nav">CONTACT</a></li>
+				</ul>
+			</nav>
+		</div>	
+
 		<div class="container">
 			<div class="row main--content">
 				
-				<div class="col-md-2 col-lg-2 hidden-xs hidden-sm">
-					<div class="content--menu">
-						
-						<a href="#" class="side-menu-button"><span class="menu-abrir"></span>MENU</a>
-					</div>
-				</div>
+				<div class="col-md-2 col-lg-2 hidden-xs hidden-sm"></div>
 
 
 				<div class="col-md-10 col-lg-10">
@@ -35,15 +44,15 @@
 							
 							<div class="pdd--section">	
 								<div class="col-md-3 col-lg-3">
-								<div class="bolona"></div>
+								<div class="bolona"><img src="imagens/3x4.png" alt=""></div>
 								</div>
 
 								<div class="col-md-9 col-lg-9">
 									<div class="mrgin-section">
 											
-										<h1 class="first-text">Hi, i'm <strong>Matheus Naziel!</strong></h1>
+										<h1 class="first-text">Olá, Eu sou <strong>Matheus Naziel!</strong></h1>
 										<p class="text-1">Web Developer</p>
-										<p class="text-2"><b>Turpis, sit amet iaculis dui consectetur at.</b> Cras sagittis molestie orci.<br> <b>Suspendisse ut laoreet mi.</b> Phasellus eu tortor vehicula, blandit enim eu, auctor<br> massa. Nulla ultricies tortor dolor, sit amet suscipit enim <b>condimentum id.</b> Etiam<br> eget iaculis tellus. Varius sit amet.</p>
+										<p class="text-2"><b>Tenho 24 anos, sou técnico em Automação Industrial, estava morando em Cabo Frio e trabalhando como recepcionista de uma pousada em Búzios, estava estudando para prestar vestibular, e conversando com um amigo programador decidi pesquisar sobre esse universo da programação, acabei me interessando até que comprei um curso online do Alura há 6 meses, vim morar no Rio de Janeiro de novo com esse meu amigo programador e fiz essa página para me apresentar.</p></b>
 									</div>
 								</div>
 							</div>
@@ -51,57 +60,184 @@
 							
 							<div class="col-md-12 col-lg-12">
 								<div class="second--section">
-									<h2 class="profile">PROFILE</h2>
-									<h3 class="full--name">FULL NAME</h3>	
+									<h2 class="page--h2">PERFIL</h2>
+									<h3 class="full--name">NOME</h3>	
 									<p class="name">Matheus Naziel da Silva</p>
-									<h3 class="page--h3">BORN</h3>	
-									<p class="address">29 Dez 1992, Rio de Janeiross</p>
-									<h3 class="find-me-on">FIND ME ON</h3>	
-								<div class="service-icon">
-									
-									<a href="http://twitter.com/matheusnaziel" class="icon--twitter"><span class="tooltip-twitter">Acesse meu Twitter</span></a>
-									<a href="#" class="icon--email"><span class="tooltip-email">matheus.naziel@gmail.com</span></a>
-									<a href="http://github.com/matheusnaziel" class="icon--github"><span class="tooltip-github">Acesse meu Github</span></a>
-									<a href="#" class="icon--tel"><span class="tooltip-tel">(21)92000-4381</span></a>
-									<a href="#" class="icon--skype"><span class="tooltip-skype">Meu Skype é<br>matheus.naziel</span></a>
-									
-								</div>
-								<div class="third--section">
-									<h2 class="education">EDUCATION</h2>	
-									
-									<h3 class="page--h3">Graphic Design</h3>
-									<p><span class="icon--library"></span><b>St. Patrick University (2 Years Course)</b> - Graduation May 2013</p>
-									<p class="education--text--1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+									<h3 class="page--h3">NASCIDO</h3>	
+									<p class="address">29 Dez 1992, Rio de Janeiro</p>
+									<h3 class="find-me-on">ME ENCONTRE</h3>	
+									<div class="service-icon">
+										
+										<a href="http://twitter.com/matheusnaziel" class="icon--twitter"><span class="tooltip-twitter">Acesse meu Twitter</span></a>
+										<a href="#" class="icon--email"><span class="tooltip-email">matheus.naziel@gmail.com</span></a>
+										<a href="http://github.com/matheusnaziel" class="icon--github"><span class="tooltip-github">Acesse meu Github</span></a>
+										<a href="#" class="icon--tel"><span class="tooltip-tel">(21)92000-4381</span></a>
+										<a href="#" class="icon--skype"><span class="tooltip-skype">Meu Skype é<br>matheus.naziel</span></a>									
+									</div>
+									<div class="third--section">
+										<h2 class="page--h2">EDUCAÇÃO</h2>	
+										
+										<h3 class="page--h3">HTML5</h3>
+										<p><span class="icon--library"></span><b>St. Patrick University (2 Years Course)</b> - Graduation May 2013</p>
+										<p class="education--text--1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 
-									<h3 class="page--h3">MASTER OF WEB DESIGN</h3>
-									<p><span class="icon--library"></span><b>St. Patrick University (2 Years Course)</b> - Graduation May 2013</p>
-									<p class="education--text--1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galleymz-tooltip  of type and scrambled it to make a type specimen book.</p>
+										<h3 class="page--h3">CSS3</h3>
+										<p><span class="icon--library"></span><b>St. Patrick University (2 Years Course)</b> - Graduation May 2013</p>
+										<p class="education--text--1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galleymz-tooltip  of type and scrambled it to make a type specimen book.</p>
 
-									<h3 class="page--h3">Graphic Design</h3>
-									<p><span class="icon--library"></span><b>St. Patrick University (2 Years Course)</b> - Graduation May 2013</p>
-									<p class="education--text--1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-								</div>
-								<div class="fourth--section">
-									<h2 class="work--experience">WORK EXPERIENCE</h2>	
-									
-									<h3 class="page--h3">BLACK TIE CORP</h3>
-									<p><span class="icon--flag"></span><b>Front-end Developer</b> -  Jan 2015 - Apr 2016</p>
-									<p class="education--text--1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-									
-									<h3 class="page--h3">OASIS LTDA.</h3>
-									<p><span class="icon--flag"></span><b>Front-end Developer</b> - Fev 2013 Dez 2014</p>
-									<p class="education--text--1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-									
-									<h3 class="page--h3">DUPSTUDIO</h3>
-									<p><span class="icon--flag"></span><b>Front-end Developer</b> - May 2012 Dez 2012</p>
-									<p class="education--text--1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-									
-									<h3 class="page--h3">BLACK TIE CORP</h3>
-									<p><span class="icon--flag"></span><b>Front-end Developer</b> - Mar 2011 Jan 2012</p>
-									<p class="education--text--1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-									
-								</div>
-									<br><br><br><br>
+										<h3 class="page--h3">Graphic Design</h3>
+										<p><span class="icon--library"></span><b>St. Patrick University (2 Years Course)</b> - Graduation May 2013</p>
+										<p class="education--text--1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+									</div>
+									<div class="fourth--section">
+										<h2 class="page--h2">WORK EXPERIENCE</h2>	
+										
+										<h3 class="page--h3">BLACK TIE CORP</h3>
+										<p><span class="icon--flag"></span><b>Front-end Developer</b> -  Jan 2015 - Apr 2016</p>
+										<p class="education--text--1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+										
+										<h3 class="page--h3">OASIS LTDA.</h3>
+										<p><span class="icon--flag"></span><b>Front-end Developer</b> - Fev 2013 Dez 2014</p>
+										<p class="education--text--1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+										
+										<h3 class="page--h3">DUPSTUDIO</h3>
+										<p><span class="icon--flag"></span><b>Front-end Developer</b> - May 2012 Dez 2012</p>
+										<p class="education--text--1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+										
+										<h3 class="page--h3">BLACK TIE CORP</h3>
+										<p><span class="icon--flag"></span><b>Front-end Developer</b> - Mar 2011 Jan 2012</p>
+										<p class="education--text--1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>									
+									</div>
+									<div class="skills">
+										<h2 class="page--h2">SKILLS</h2>
+
+										<h3 class="page--h3">Professional Skills</h3>
+										<ul class="skills-list">
+											<li>
+											 <div class="progress"> 
+											 	<div class="progress-bar">
+											 		<span class="progress-type">Comunication</span>
+											 		<span class="progress-completed">70%</span>
+											 	</div> 
+											 </div> 
+											</li>
+											<li>
+											 <div class="progress"> 
+											 	<div class="progress-bar progress-bar-2">
+											 		<span class="progress-type">Leadership</span>
+											 		<span class="progress-completed">90%</span>
+											 	</div> 
+											 </div> 
+											</li>
+											<li>
+											 <div class="progress"> 
+											 	<div class="progress-bar progress-bar-3">
+											 		<span class="progress-type">Confidence</span>
+											 		<span class="progress-completed">85%</span>
+											 	</div> 
+											 </div> 
+											</li>
+										</ul>
+
+										<h3 class="page--h3">SOFTWARE SKILLS</h3>
+										<ul class="skills-list">
+											<li>
+											 <div class="progress"> 
+											 	<div class="progress-bar progress-bar-4">
+											 		<span class="progress-type">Adobe Photoshop</span>
+											 		<span class="progress-completed">85%</span>
+											 	</div> 
+											 </div> 
+											</li>
+											<li>
+											 <div class="progress"> 
+											 	<div class="progress-bar progress-bar-5">
+											 		<span class="progress-type">Adobe Illustrator</span>
+											 		<span class="progress-completed">90%</span>
+											 	</div> 
+											 </div> 
+											</li>
+											<li>
+											 <div class="progress"> 
+											 	<div class="progress-bar progress-bar-6">
+											 		<span class="progress-type">Adobe Frameworks</span>
+											 		<span class="progress-completed">40%</span>
+											 	</div> 
+											 </div> 
+											</li>
+										</ul>
+
+										<h3 class="page--h3">CODE SKILLS</h3>
+										<ul class="skills-list">
+											<li>
+											 <div class="progress"> 
+											 	<div class="progress-bar progress-bar-7">
+											 		<span class="progress-type">HTML5/CSS3</span>
+											 		<span class="progress-completed">90%</span>
+											 	</div> 
+											 </div> 
+											</li>
+											<li>
+											 <div class="progress"> 
+											 	<div class="progress-bar progress-bar-8">
+											 		<span class="progress-type">JavaScript</span>
+											 		<span class="progress-completed">60%</span>
+											 	</div> 
+											 </div> 
+											</li>
+											<li>
+											 <div class="progress"> 
+											 	<div class="progress-bar progress-bar-9">
+											 		<span class="progress-type">PHP</span>
+											 		<span class="progress-completed">40%</span>
+											 	</div> 
+											 </div> 
+											</li>
+										</ul>
+									</div>
+									<div class="interests">
+										<h2 class="page--h2">INTERESTS</h2>
+										<h3 class="page--h3">ART</h3>
+										<p class="name">Praesent tellus ligula, tincidunt et fringilla vel, tincidunt ut dui. Nulla feugiat, lacus ac malesuada<br> lobortis, elit nunc congue nunc, vel imperdiet lorem leo a lectus.</p>
+										<h3 class="page--h3">GAMES</h3>
+										<p class="name">Praesent tellus ligula, tincidunt et fringilla vel, tincidunt ut dui. Nulla feugiat, lacus ac malesuada<br> lobortis, elit nunc congue nunc, vel imperdiet lorem leo a lectus.</p>
+										<h3 class="page--h3">BOOKS</h3>
+										<p class="name">Praesent tellus ligula, tincidunt et fringilla vel, tincidunt ut dui. Nulla feugiat, lacus ac malesuada<br> lobortis, elit nunc congue nunc, vel imperdiet lorem leo a lectus.</p>
+									</div>	
+									<div class="pre--form">	
+										<h2 class="page--h2">CONTACT</h2>
+										<h3 class="page--h3">SEND ME A MESSAGE</h3>
+									</div>
+									<div class="row">
+										<div class="col-md-8 col-sm-8">
+											<div class="formulario">
+												<form action="">
+													<div class="form-group">
+													<input class="form--style" type="text" required="type" name="name" placeholder="NAME">	
+													</div>
+													<div class="form-group">
+													<input class="form--style" type="email" required="type" name="email" placeholder="EMAIL">	
+													</div>
+													<div class="form-group">
+													<input class="form--style" type="text" required="type" name="name" placeholder="SUBJECT">	
+													</div>
+													<div class="form-group">
+													<textarea class="form--style textarea--1" type="name" required="type" id="message" placeholder="MESSAGE"></textarea> 
+													</div>
+													<div class="form-group">
+														<button  type="submit" class="button--send">SEND</button>
+													</div>
+												</form>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<h4 class="page--h4 addres--1">ADDRES</h4>
+											<p class="addres--text">451 Lorem Ipsum,<br> Austin - Texas -<br> U.S.A</p>									<h4 class="page--h4 addres--1">PHONE</h4>
+											<p class="addres--text">+ 61 92004381</p>
+											<h4 class="page--h4 addres--1">MAIL</h4>
+											<p class="addres--text--1">matheus.naziel@gmail.com</p>
+										</div>
+									</div>		
 								</div>
 							</div>	
 						</div>
