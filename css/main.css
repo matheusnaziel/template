@@ -523,7 +523,7 @@ strong {
 }
 
 .progress-bar-7 {
-    width: 90%;
+    width: 80%;
     background: #09afad;
 }
 
@@ -538,6 +538,10 @@ strong {
     background: #da222b;
 }
 
+.progress-bar-10 {
+  width: 70%;
+  background-color: green;
+}
 
 .progress-type {
     left: 15px;
@@ -667,20 +671,17 @@ textarea::placeholder {
     background: #333;
     padding: 1em;
     margin: 0;
-
     height: 100%;
-    width: 90%
-    max-width: 320px;
+    width: 250px;
     position: fixed;
-    z-index: 1;
+    z-index: 999;
     top: 0;
     left: -90%;
-     transition: left 0.3s ease-out;
+    transition: left 0.3s ease-out;
 }
 
-.menu-ativo .barra-nav {
+.menu-ativo {
     left: 0;
-    width: 250px;
 }
 
 .menu-principal {
@@ -718,11 +719,11 @@ textarea::placeholder {
 .menu-ativo:after {
     content: "";
     display: block;
-
     position: fixed;
     top: 0;
     bottom:0;
     left: 0;
     right: 0;
     background: rgba(0,0,0,0.4);
+    z-index: 99;
 }

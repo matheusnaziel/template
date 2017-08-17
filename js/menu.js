@@ -1,15 +1,17 @@
+var blockClick = false;
 
 document.querySelector('.menu-abrir').onclick = function() {
-    document.documentElement.classList.add('menu-ativo');
+    document.querySelector('.barra-nav').classList.add('menu-ativo');
 
 };
 
 document.querySelector('.menu-fechar').onclick = function() {
-    document.documentElement.classList.remove('menu-ativo');
+    document.querySelector('.barra-nav').classList.remove('menu-ativo');
 };
 
-document.documentElement.onclick = function(event) {
-	if(event.target === document.documentElement) {
-		document.documentElement.classList.remove('menu-ativo');
-	}
-}
+// document.documentElement.onclick = function(event) {
+// 	console.log('document.documentElement', blockClick)
+// 	if(blockClick && event.target.classList[1] === "menu-ativo") {
+// 		document.querySelector('.barra-nav').classList.remove('menu-ativo');
+// 	}
+// }
