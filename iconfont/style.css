@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?f6m331');
-  src:  url('fonts/icomoon.eot?f6m331#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?f6m331') format('truetype'),
-    url('fonts/icomoon.woff?f6m331') format('woff'),
-    url('fonts/icomoon.svg?f6m331#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?7yvesl');
+  src:  url('fonts/icomoon.eot?7yvesl#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7yvesl') format('truetype'),
+    url('fonts/icomoon.woff?7yvesl') format('woff'),
+    url('fonts/icomoon.svg?7yvesl#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -41,6 +41,9 @@
 }
 .icon-skype:before {
   content: "\eac5";
+}
+.icon-linkedin:before {
+  content: "\eac9";
 }
 .icon-git:before {
   content: "\eae7";

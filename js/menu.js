@@ -1,4 +1,4 @@
-var blockClick = false;
+// var blockClick = false;
 
 document.querySelector('.menu-abrir').onclick = function() {
     document.querySelector('.barra-nav').classList.add('menu-ativo');

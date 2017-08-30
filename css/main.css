@@ -11,6 +11,10 @@ body {
     padding-top: 60px;
 }
 
+.container p {
+  color: black;
+}
+
 .content {
     height: 100vh;
     overflow-y: scroll;
@@ -49,7 +53,7 @@ body {
     border: 5px solid #09afad;
     position: absolute;
     z-index: 99;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .bolona img {
@@ -88,7 +92,7 @@ body {
 }
 
 .first-text {
-    font-size: 43px;
+    font-size: 40px;
     letter-spacing: -2pt;
     color: #000;
 }
@@ -110,7 +114,6 @@ strong {
 
 .second--section {
     margin-top: 65px;
-    margin-left: 213px;
 }
 
 .page--h2{
@@ -130,7 +133,7 @@ strong {
 
 .full--name:after {
     content: "";
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #000;
     width: 90%;
     left: 0;
     bottom: 0;
@@ -138,7 +141,8 @@ strong {
 }
 
 .bg--section--1 {
-    background: #fafafa;
+    background: rgba(255,255,255,0.7);
+    padding-top: 60px;
 }
 
 .bg--section--1:after {
@@ -161,7 +165,7 @@ strong {
 
 .page--h3:after {
     content: "";
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #000;
     width: 90%;
     left: 0;
     bottom: 0;
@@ -176,6 +180,7 @@ strong {
 .find-me-on {
     color: #000523;         
     font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .pdd--section {
@@ -186,20 +191,20 @@ strong {
     margin-left: 80px;
 }
 
-.icon--twitter:before {
-    content: "\ea96";
+.icon--linkedin:before {
+    content: "\eac9";
     font-size: 20px;
     margin-right: 10px;
     text-decoration: none;
 }
 
-.icon--twitter {
+.icon--linkedin {
     position: relative;
     display: inline-block;
     z-index: 20;
 }
 
-.icon--twitter .tooltip-twitter{
+.icon--linkedin .tooltip-linkedin{
     visibility: hidden;
     width: 120px;
     background-color: #333;
@@ -219,7 +224,7 @@ strong {
     transition:opacity 1s;
 }
 
-.icon--twitter .tooltip-twitter::after {
+.icon--linkedin .tooltip-linkedin::after {
     content: "";
     position: absolute;
     top: 100%
@@ -231,7 +236,7 @@ strong {
     border-color: transparent transparent #333 transparent;
 }
 
-.icon--twitter:hover .tooltip-twitter{
+.icon--linkedin:hover .tooltip-linkedin{
     visibility: visible;
     opacity: 1;
 }
@@ -482,7 +487,7 @@ strong {
 }
 
 .progress {
-    width: 90%;
+    width: 100%;
     height: 25px;
     position: relative;
     margin-bottom: 20px;
@@ -496,51 +501,30 @@ strong {
     align-items: center;
 }
 
-.progress-bar-2 {
-    width: 90%;
-    background: #031634;
-}
-
-.progress-bar-3 {
-    width: 85%;
-    background: #da222b;
-}
-
-.progress-bar-4 {
-    width: 85%;
-    background: #09afad;
-}
-
-
-.progress-bar-5 {
-    width: 90%;
-    background: #031634;
-}
-
-.progress-bar-6 {
-    width: 40%;
-    background: #da222b;
-}
 
 .progress-bar-7 {
     width: 80%;
     background: #09afad;
+    height: 25px;
 }
 
 
 .progress-bar-8 {
     width: 60%;
     background: #031634;
+    height: 25px;
 }
 
 .progress-bar-9 {
     width: 40%;
     background: #da222b;
+    height: 25px;
 }
 
 .progress-bar-10 {
   width: 70%;
   background-color: green;
+  height: 25px;
 }
 
 .progress-type {
@@ -587,6 +571,7 @@ textarea::placeholder {
     font-size: 14px;
     font-weight: 700;
     color: #031634;
+    margin-top: 20px;
 }
 
 .addres--text {
@@ -726,4 +711,8 @@ textarea::placeholder {
     right: 0;
     background: rgba(0,0,0,0.4);
     z-index: 99;
+}
+
+.service-icon {
+  padding-bottom: 40px;
 }
