@@ -141,7 +141,7 @@ strong {
 }
 
 .bg--section--1 {
-    background: rgba(255,255,255,0.7);
+    background: rgba(255,255,255,0.4);
     padding-top: 60px;
 }
 
@@ -195,19 +195,21 @@ strong {
     content: "\eac9";
     font-size: 20px;
     margin-right: 10px;
-    text-decoration: none;
+    color: #0077B5;
+
 }
 
 .icon--linkedin {
     position: relative;
     display: inline-block;
     z-index: 20;
+    color: #0077B5;
 }
 
 .icon--linkedin .tooltip-linkedin{
     visibility: hidden;
     width: 120px;
-    background-color: #333;
+    background-color: rgba(1,1,1,0.7);
     color: white;
     text-align: center;
     padding: 5px 0;
@@ -216,7 +218,7 @@ strong {
     z-index: 1;
     top: 100%;
     margin-left: -80px;
-    margin-top: 6px;
+    margin-top: 15px;
 
     /* MAKE FADE IN */
 
@@ -227,13 +229,12 @@ strong {
 .icon--linkedin .tooltip-linkedin::after {
     content: "";
     position: absolute;
-    top: 100%
-    left: 50%;
-    margin-left: -65px;
-    margin-top: -15px;
+    margin-left: -33px;
+    margin-top: -31px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent #333 transparent;
+    border-color: transparent transparent rgba(1,1,1,0.7) transparent;
+
 }
 
 .icon--linkedin:hover .tooltip-linkedin{
@@ -247,18 +248,20 @@ strong {
     font-size: 20px;
     margin-right: 10px;
     text-decoration: none;
+    color: #da222b;
 }
 
 .icon--github {
     position: relative;
     display: inline-block;
     z-index: 20;
+    color: #da222b;
 }
 
 .icon--github .tooltip-github{
     visibility: hidden;
     width: 120px;
-    background-color: #333;
+    background-color: rgba(1,1,1,0.7);
     color: white;
     text-align: center;
     padding: 5px 0;
@@ -267,7 +270,7 @@ strong {
     z-index: 1;
     top: 100%;
     margin-left: -80px;
-    margin-top: 6px;
+    margin-top: 15px;
 
     /* MAKE FADE IN */
 
@@ -280,11 +283,11 @@ strong {
     position: absolute;
     top: 100%
     left: 50%;
-    margin-left: -65px;
-    margin-top: -15px;
+    margin-left: -28px;
+    margin-top: -31px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent #333 transparent;
+    border-color: transparent transparent rgba(1,1,1,0.7) transparent;
 }
 
 .icon--github:hover .tooltip-github{
@@ -302,6 +305,7 @@ strong {
     font-size: 20px;
     margin-right: 10px;
     text-decoration: none;
+    color: green;
 }
 
 .icon--email {
@@ -314,8 +318,8 @@ strong {
 
 .icon--email .tooltip-email{
     visibility: hidden;
-    width: 170px;
-    background-color: #333;
+    width: 200px;
+    background-color: rgba(1,1,1,0.7);
     color: white;
     text-align: center;
     padding: 5px 0;
@@ -324,7 +328,7 @@ strong {
     z-index: 1;
     top: 100%;
     margin-left: -80px;
-    margin-top: 6px;
+    margin-top: 15px;
 
     /* MAKE FADE IN */
 
@@ -335,13 +339,11 @@ strong {
 .icon--email .tooltip-email::after {
     content: "";
     position: absolute;
-    top: 100%
-    left: 50%;
-    margin-left: -108px;
+    margin-left: -134px;
     margin-top: -15px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent #333 transparent;
+    border-color: transparent transparent rgba(1,1,1,0.7) transparent;
 }
 
 .icon--email:hover .tooltip-email{
@@ -354,6 +356,7 @@ strong {
     font-size: 20px;
     margin-right: 10px;
     text-decoration: none;
+    color: black;
 }
 
 .icon--tel {
@@ -365,7 +368,7 @@ strong {
 .icon--tel .tooltip-tel{
     visibility: hidden;
     width: 120px;
-    background-color: #333;
+    background-color: rgba(1,1,1,0.7);
     color: white;
     text-align: center;
     padding: 5px 0;
@@ -374,7 +377,7 @@ strong {
     z-index: 1;
     top: 100%;
     margin-left: -80px;
-    margin-top: 6px;
+    margin-top: 15px;
 
     /* MAKE FADE IN */
 
@@ -385,13 +388,11 @@ strong {
 .icon--tel .tooltip-tel::after {
     content: "";
     position: absolute;
-    top: 100%
-    left: 50%;
-    margin-left: -51px;
+    margin-left: -57px;
     margin-top: -15px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent #333 transparent;
+    border-color: transparent transparent rgba(1,1,1,0.7) transparent;
 }
 
 .icon--tel:hover .tooltip-tel{
@@ -404,18 +405,20 @@ strong {
     content: "\eac5";
     font-size: 20px;
     text-decoration: none;
+    color: #09afad;
 }
 
 .icon--skype {
     position: relative;
     display: inline-block;
     z-index: 20;
+    color: #09afad;
 }
 
 .icon--skype .tooltip-skype{
     visibility: hidden;
     width: 120px;
-    background-color: #333;
+    background-color: rgba(1,1,1,0.7);
     color: white;
     text-align: center;
     padding: 5px 0;
@@ -424,7 +427,7 @@ strong {
     z-index: 1;
     top: 100%;
     margin-left: -80px;
-    margin-top: 6px;
+    margin-top: 15px;
 
     /* MAKE FADE IN */
 
@@ -435,13 +438,11 @@ strong {
 .icon--skype .tooltip-skype::after {
     content: "";
     position: absolute;
-    top: 100%
-    left: 50%;
-    margin-left: -36px;
-    margin-top: -29px;
+    margin-left: -40px;
+    margin-top: -31px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent #333 transparent;
+    border-color: transparent transparent rgba(1,1,1,0.7) transparent;
 }
 
 .icon--skype:hover .tooltip-skype{
@@ -479,6 +480,10 @@ strong {
 
 .icon--tel:hover {
     text-decoration: none;
+}
+
+.service-icon a {
+  text-decoration: none;
 }
 
 .skills-list {
