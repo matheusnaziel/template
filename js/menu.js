@@ -23,7 +23,9 @@ document.querySelector('.menu-fechar').onclick = function() {
 //    });
 // });
 
-// document.documentElement.onclick = function(event) {
+document.querySelector('.bg--section--1').onclick = function(event) {
+	console.log(event)
+}
 // 	console.log('document.documentElement', blockClick)
 // 	if(blockClick && event.target.classList[1] === "menu-ativo") {
 // 		document.querySelector('.barra-nav').classList.remove('menu-ativo');
