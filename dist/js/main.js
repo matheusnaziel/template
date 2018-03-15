@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$('.toggle').click(function(){
+		$('.navbar-wrapper').toggleClass('active');
+		$(this).hide();
+	})
+	$('.nav-toggle').click(function(){
+		$('.navbar-wrapper').toggleClass('active');
+		$('.toggle').show();
+	})
+})
