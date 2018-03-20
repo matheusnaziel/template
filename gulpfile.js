@@ -23,7 +23,7 @@ gulp.task('js', function() {
 });
 
 gulp.task('stylusToCss', function() {
-	return gulp.src('./src/stylus/*.styl')
+	return gulp.src('./src/stylus/pages/*.styl')
 	.pipe(stylus())
 	.pipe(gulp.dest('./dist/stylus/'));
 });
@@ -34,8 +34,8 @@ gulp.task('images', function() {
 });
 
 gulp.task('iconfont', function() {
-	return gulp.src('./src/iconfont/*')
-	.pipe(gulp.dest('./dist/iconfont/fonts'));
+	return gulp.src('./src/iconfont/fonts/*.{eot,svg,ttf,woff}')
+	.pipe(gulp.dest('./dist/iconfont/'));
 });
 
 gulp.task('watch', function() {
